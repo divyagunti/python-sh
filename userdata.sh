@@ -4,4 +4,4 @@ sudo yum -y install git
 sudo git clone https://github.com/Farooq8090/USA-Housing.git
 cd USA-Housing
 sudo pip3 install -r requirements.txt
-python3 app.py
+screen -m -d python3 app.py
